@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export function Acumulou(acumulou:any){
+export function Acumulou(acumulado:any){
 
-        if(acumulou == true){
+        if(acumulado == true){
             return(
                 <TextACC>ACUMULOU!</TextACC>
             )
@@ -14,6 +14,7 @@ export function Acumulou(acumulou:any){
 
 }
 const TextACC = styled.div`
+    font-family: Roboto; 
     color: #0066b3;
     margin-top: 15px;
     font-size: 30px;

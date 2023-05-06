@@ -1,17 +1,17 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Mega from "../pages/Mega";
-import Quin from "../pages/Quin";
-import Navbar from "../components/Navbar";
-import Time from "../pages/Time";
+import Timemania from "../pages/Timemania";
+import Megasena from "../pages/Megasena";
+import Quina from "../pages/Quina";
+import Menu from "../components/Menu/index";
 
 function Rotas() {
     return (
         <BrowserRouter>
-        <Navbar/>
+        <Menu/>
             <Routes>
-                <Route path='/megasena' element={<Mega />} />
-                <Route path='/timemania' element={<Time />} />
-                <Route path='/quina' element={<Quin />} />
+                <Route path='/timemania' element={<Timemania />} />
+                <Route path='/megasena' element={<Megasena />} />
+                <Route path='/quina' element={<Quina />} /> 
             </Routes>
         </BrowserRouter>
     )
