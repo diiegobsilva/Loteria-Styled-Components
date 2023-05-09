@@ -6,14 +6,14 @@ import { Data } from "../Data";
 
 export function Direita({ dezenas, acumulado, numeroDoConcurso, dataPorExtenso, color}: any) {
     return (
-        <Fudeu>
+        <Div>
             <Resultado dezenas={dezenas} color={color}/>
             <Acumulou acumulado={acumulado}/>
             <Data numeroDoConcurso={numeroDoConcurso} dataPorExtenso={dataPorExtenso} />
-        </Fudeu>
+        </Div>
     );
 }
 
-const Fudeu = styled.div`
+const Div = styled.div`
     margin-left:125px;
 `;

@@ -22,7 +22,7 @@ const Div = styled.div`
 
 const TextPremio = styled.div`
     font-family: Roboto; 
-    color: #209869;
+    color: ${props =>props.theme.estimativa};
     font-weight: bold;
     font-size: large;
 

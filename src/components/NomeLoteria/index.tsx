@@ -24,7 +24,7 @@ const Trevo = styled.div`
 const Text = styled.div`
     font-family: Roboto;  
     margin-left: 10px;
-    color: #209869;
+    color: ${props =>props.theme.loteria};
     font-weight: bold;
     font-size: x-large;
 `
