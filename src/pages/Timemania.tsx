@@ -16,7 +16,6 @@ function Timemania() {
                 trevo={trevoTime}
                 alt="trevo-timemania"
                 name="TIMEMANIA"
-                color={time.loteria}
                 colorPremio={time.estimativa}
                 dataProximoConcurso={timemania.dataProximoConcurso}
                 valorEstimadoProximoConcurso={timemania.valorEstimadoProximoConcurso}

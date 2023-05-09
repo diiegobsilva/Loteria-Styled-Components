@@ -9,6 +9,6 @@ export function Data({numeroDoConcurso, dataPorExtenso}:any){
 
 const P = styled.div`
     font-family: Roboto; 
-    ${props =>props.theme.data};
-    font-size: small;
+    color:${props =>props.theme.data};
+    font-size: 15px;
 `;

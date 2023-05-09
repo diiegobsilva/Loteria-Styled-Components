@@ -17,7 +17,6 @@ function Quina() {
                 trevo={trevoQuina}
                 alt="trevo-quina"
                 name="QUINA"
-                color={quin.loteria}
                 colorPremio={quin.estimativa}
                 dataProximoConcurso={quina.dataProximoConcurso}
                 valorEstimadoProximoConcurso={quina.valorEstimadoProximoConcurso}

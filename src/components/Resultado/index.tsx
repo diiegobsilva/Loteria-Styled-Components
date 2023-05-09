@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 
-export function Resultado({dezenas, color}:any){
+export function Resultado({dezenas}:any){
     return(
         <>
         {dezenas && dezenas.map((valor:any) => (
-            <Cicle style={{ backgroundColor: color }} >{valor.split("")}</Cicle> 
+            <Cicle>{valor.split("")}</Cicle> 
          ))}
          </> 
     )
@@ -21,6 +21,7 @@ const Cicle = styled.div`
     justify-content: center;
     align-items: center;
     font-size: large;
-    color: white;
+    color: ${props =>props.theme.bolafonte};
+    background: ${props =>props.theme.bola};
     font-weight: bold;
 `;

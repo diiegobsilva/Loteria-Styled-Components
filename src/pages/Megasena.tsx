@@ -17,7 +17,6 @@ function Megasena() {
                 trevo={trevoMega}
                 alt="trevo-megasena"
                 name="MEGA-SENA"
-                color={mega.loteria}
                 colorPremio={mega.estimativa}
                 dataProximoConcurso={megasena.dataProximoConcurso}
                 valorEstimadoProximoConcurso={megasena.valorEstimadoProximoConcurso}
@@ -26,6 +25,7 @@ function Megasena() {
                 dezenas={megasena.dezenas}
                 acumulado={megasena.acumulado}
             />
+            
             </ThemeProvider>
         </>
     )   

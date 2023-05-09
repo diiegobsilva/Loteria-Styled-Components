@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-    export function Estimativa({dataProximoConcurso, valorEstimadoProximoConcurso, colorPremio }:any){
+    
+export function Estimativa({dataProximoConcurso, valorEstimadoProximoConcurso, colorPremio }:any){
+
     return(
         <Div>
             <P> Estimativa de prêmio do próximo <br/> concurso. Sorteio em {dataProximoConcurso}:</P>
@@ -11,8 +13,8 @@ import styled from "styled-components";
 }
 const P = styled.p`
     font-family: "Roboto";
-    color: #4c556c;
-    font-size: small;
+    color: ${props =>props.theme.data};
+    font-size: 15px;
 `;
 
 const Div = styled.div`
@@ -25,5 +27,4 @@ const TextPremio = styled.div`
     color: ${props =>props.theme.estimativa};
     font-weight: bold;
     font-size: large;
-
 `;
